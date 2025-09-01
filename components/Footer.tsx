@@ -12,6 +12,13 @@ const Footer: React.FC = () => {
                          {/* Social links can be added here */}
                     </div>
                     <div className="mt-8 md:mt-0 md:order-1">
+                        <div className="text-center mb-8">
+                            <h3 className="font-semibold text-white">Lokasi Toko</h3>
+                            <address className="mt-2 text-sm text-stone-400 not-italic">
+                                Jl. Jenderal Sudirman No. 123<br/>
+                                Jakarta Selatan, DKI Jakarta 12190
+                            </address>
+                        </div>
                         <p className="text-center text-base">
                             &copy; {currentYear} KurmaPrime. All rights reserved.
                         </p>
